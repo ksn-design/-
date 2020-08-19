@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>お店概要</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <div class="header">
+    <div class="container">
+      <div class="title">
+        <div class="back"></div>
+        <h2>NAMINOYA</h2>
+      </div>
+      <div class="menu">
+        <button class="btn-menu">メニュー</button>
+        <nav>
+          <ul>
+            <li><a href="お店facebook">お知らせ</a></li>
+            <li><a href="tel:080-1390-1277">お問い合わせ</a></li>
+            <li><a href="#">メニュー</a></li>
+            <li><a href="https://www.google.co.jp/maps/place/%E3%80%92905-0013+%E6%B2%96%E7%B8%84%E7%9C%8C%E5%90%8D%E8%AD%B7%E5%B8%82%E5%9F%8E%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%91%E2%88%92%EF%BC%92%EF%BC%98/@26.5912471,127.981926,17z/data=!3m1!4b1!4m5!3m4!1s0x34e4558bd982508b:0x52feab807d74e522!8m2!3d26.5912471!4d127.981926?hl=ja">location</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">お店概要</a></li>
+            <li> <a href="#">PC版</a> </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+    <div class="company-overview">
+      <div class="company-wrapper">
+        <div class="container">
+          <h1 >会社概要</h1>
+          <h2>見やすく、使いやすいwebサイトを制作</h2>
+          <p>徹底したヒアリングからお客様のニーズをキャッチしさらにPlusOneのアイディア提供を行っていきます。
+            PC・スマートフォン・タブレットといったマルチデバイスのデザインはもちろん、HTML5やJavaScriptを利用した動きのあるサイトのコーディングまで対応可能です。</p>
+        </div>
+      </div>
+      <div class="detail-wrapper">
+        <div class="container">
+          <h3 class="details">会社概要</h3>
+          <ul class="contents">
+            <li>
+              <dl class="company-name">
+              <dt>店名</dt>
+              <dd>波之屋</dd>
+              <dt>本店</dt>
+              <dd>沖縄県名護市</dd>
+              <dt>店長</dt>
+              <dd>裕也</dd>
+              <dt>設立</dt>
+              <dd>2020年(令和２年) ８月１日</dd>
+              <dt>資本金</dt>
+              <dd>30万円(2020 7月５日現在)</dd>
+              <dt>売上高</dt>
+              <dd>未入力</dd>
+              <dt>従業員数</dt>
+              <dd>3名</dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <script>
+    'use strict';
+
+    const btn= document.querySelector('.btn-menu');
+    const nav= document.querySelector('nav');
+
+    btn.addEventListener('click',()=>{
+      nav.classList.toggle('open-menu')
+    });
+
+    </script>
+  </body>
+</html>
